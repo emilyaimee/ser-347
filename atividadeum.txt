@@ -1,0 +1,175 @@
+#Mestranda: Emily Aimée
+
+C:\Users\emily>git clone https://github.com/emilyaimee/ser-347
+fatal: destination path 'ser-347' already exists and is not an empty directory.
+
+C:\Users\emily>dir
+ O volume na unidade C é Acer
+ O Número de Série do Volume é 040C-F09C
+
+ Pasta de C:\Users\emily
+
+13/03/2021  15:22    <DIR>          .
+13/03/2021  15:22    <DIR>          ..
+25/10/2019  12:59    <DIR>          .anaconda
+04/01/2018  16:27    <DIR>          .android
+27/03/2020  15:57    <DIR>          .conda
+27/03/2020  15:03                43 .condarc
+25/10/2019  13:48    <DIR>          .config
+22/11/2018  21:11    <DIR>          .gdal
+13/03/2021  12:09                58 .gitconfig
+27/03/2020  15:36    <DIR>          .ipynb_checkpoints
+25/10/2019  13:16    <DIR>          .ipython
+18/09/2020  12:31    <DIR>          .irpf
+27/03/2020  15:36    <DIR>          .jupyter
+13/12/2019  19:27    <DIR>          .matplotlib
+04/01/2018  16:26    <DIR>          .MemuHyperv
+03/05/2017  19:15    <DIR>          .Origin
+11/11/2019  21:53    <DIR>          .qgis2
+03/05/2017  19:15    <DIR>          .QtWebEngineProcess
+18/09/2020  20:23    <DIR>          .receitanet
+10/03/2018  22:46    <DIR>          .rfb
+25/10/2019  13:42    <DIR>          .spyder-py3
+12/03/2021  16:56    <DIR>          3D Objects
+23/03/2020  17:09    <DIR>          Anaconda3
+12/03/2021  16:56    <DIR>          Contacts
+12/03/2020  21:01               400 debug.log
+12/03/2021  16:56    <DIR>          Desktop
+13/03/2021  12:07    <DIR>          Documents
+13/03/2021  19:03    <DIR>          Downloads
+25/10/2019  14:07    <DIR>          Emily
+12/03/2021  16:56    <DIR>          Favorites
+24/12/1996  11:32       134.217.728 Grand Theft Auto - Chinatown Wars (Europe) (En,Fr,De,Es,It).nds
+22/11/2018  21:11            32.802 hg.dbf
+22/11/2018  21:11               406 hg.prj
+22/11/2018  21:11               689 hg.qpj
+22/11/2018  21:11         1.275.400 hg.shp
+22/11/2018  21:11             1.572 hg.shx
+12/03/2021  16:56    <DIR>          Links
+12/03/2021  16:56    <DIR>          Music
+27/02/2021  13:47    <DIR>          OneDrive
+22/01/2017  16:48    <DIR>          PicStream
+12/03/2021  16:56    <DIR>          Pictures
+12/03/2021  16:56    <DIR>          Saved Games
+12/03/2021  16:56    <DIR>          Searches
+13/03/2021  15:22    <DIR>          ser-347
+27/03/2020  15:36                72 Untitled.ipynb
+12/03/2021  16:56    <DIR>          Videos
+              10 arquivo(s)    135.529.170 bytes
+              36 pasta(s)   343.127.597.056 bytes disponíveis
+C:\Users\emily>cd ser-347
+
+C:\Users\emily\ser-347>dir
+ O volume na unidade C é Acer
+ O Número de Série do Volume é 040C-F09C
+
+ Pasta de C:\Users\emily\ser-347
+
+13/03/2021  15:22    <DIR>          .
+13/03/2021  15:22    <DIR>          ..
+13/03/2021  15:22             1.928 .gitignore
+13/03/2021  15:22               140 fatorial.py.txt
+13/03/2021  15:22             1.088 LICENSE
+13/03/2021  15:22               419 README.md
+               4 arquivo(s)          3.575 bytes
+               2 pasta(s)   342.780.985.344 bytes disponíveis
+
+C:\Users\emily\ser-347>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\emily\ser-347>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\emily\ser-347>git add README.md
+
+C:\Users\emily\ser-347>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+C:\Users\emily\ser-347>git commit -m "Primeira versão do arquivo README.md"
+[main 50b51ea] Primeira versão do arquivo README.md
+ 1 file changed, 17 insertions(+), 2 deletions(-)
+ rewrite README.md (100%)
+
+C:\Users\emily\ser-347>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\emily\ser-347>git pull
+Already up to date.
+
+C:\Users\Brenda\ser-347>git push
+fatal: O c├│digo de status de resposta n├úo indica ├¬xito: 401 (Unauthorized).
+Username for 'https://github.com': emilyaimee
+Password for 'https://emilyaimee@github.com':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 533 bytes | 266.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/emilyaimee/ser-347
+   1b00991..50b51ea  main -> main
+
+C:\Users\emily\ser-347>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Fatorial.py.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\emily\ser-347>git add fatorial.py.txt
+
+C:\Users\emily\ser-347>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   fatorial.py.txt
+
+
+C:\Users\emily\ser-347>git commit -m "Adicionando uma função para cálculo do fatorial"
+[main aaa4f7a] Adicionando uma função para cálculo do fatorial
+ 1 file changed, 9 insertions(+)
+ create mode 100644 fatorial.py.txt
+
+C:\Users\emily\ser-347>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\emily\ser-347>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 456 bytes | 114.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/emilyaimee/ser-347
+   50b51ea..aaa4f7a  main -> main
